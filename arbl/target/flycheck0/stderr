@@ -1,0 +1,9 @@
+    Updating crates.io index
+error: failed to select a version for `uefi`.
+    ... required by package `arbl v0.1.0 (C:\Users\monac\Documents\GitProjects\arbl\arbl\arbl)`
+versions that meet the requirements `^0.26` are: 0.26.0
+
+package `arbl` depends on `uefi` with feature `panic_handler` but `uefi` does not have that feature.
+
+
+failed to select a version for `uefi` which could resolve this conflict

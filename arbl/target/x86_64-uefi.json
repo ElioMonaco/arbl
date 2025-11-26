@@ -1,0 +1,14 @@
+{
+    "llvm-target": "x86_64-unknown-none",
+    "target-endian": "little",
+    "target-pointer-width": "64",
+    "os": "uefi",
+    "arch": "x86_64",
+    "executables": true,
+    "linker-flavor": "ld.lld",
+    "panic-strategy": "abort",
+    "target-c-int-width": "32",
+    "features": "-mmx,-sse,+soft-float",
+    "cpu": "x86-64",
+    "linker": "rust-lld"
+}
